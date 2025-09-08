@@ -1,0 +1,5 @@
+text = input()
+words = text.split()
+unique_words = set(words)
+ordered_words = sorted(unique_words)
+print(ordered_words)
