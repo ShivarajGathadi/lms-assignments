@@ -1,0 +1,5 @@
+a = input()
+letters = sum(char.isalpha() for char in a)
+digits = sum(char.isdigit() for char in a)
+print(f"LETTERS {letters}")
+print(f"DIGITS {digits}")
