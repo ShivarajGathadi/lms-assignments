@@ -1,0 +1,5 @@
+a = input()
+upper = sum(char.isupper() for char in a)
+lower = sum(char.islower() for char in a)
+print(f"UPPER CASE {upper}")
+print(f"LOWER CASE {lower}")
